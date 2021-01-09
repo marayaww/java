@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册用户</title>
+</head>
+<body>
+<form action="#" method="get">
+  <table border="1" align="center" width="500">
+<!--    用户名-->
+    <tr>
+      <td><label for="username">用户名</label></td>
+      <td><input type="text" name="username" placeholder="请输入用户名" id="username"></td>
+    </tr>
+<!--    密码-->
+    <tr>
+      <td><label for="password">密码</label></td>
+      <td><input type="password" name="password" placeholder="请输入密码" id="password"></td>
+    </tr>
+<!--    电子邮箱-->
+    <tr>
+      <td><label for="email">电子邮箱</label></td>
+      <td><input type="email" name="email" placeholder="请输入电子邮箱" id="email"></td>
+    </tr>
+<!--    姓名-->
+    <tr>
+      <td><label for="name">姓名</label></td>
+      <td><input type="text" name="name" placeholder="请输入姓名" id="name"></td>
+    </tr>
+<!--    电话号码-->
+    <tr>
+      <td><label for="phone">电话号码</label></td>
+      <td><input type="number" name="phone" placeholder="请输入电话号码" id="phone"></td>
+    </tr>
+    <!--      性别-->
+    <tr>
+
+      <td>性别</td>
+      <td><input type="radio" name="gender" value="male" >男
+          <input type="radio" name="gender" value="female" >女
+      </td>
+    </tr>
+<!--    出生日期-->
+    <tr>
+      <td>出生日期</td>
+      <td><input type="date" name="birthday" ></td>
+    </tr>
+    <!--    省份-->
+    <tr>
+      <td>省份</td>
+      <td><select name="province">
+        <option value="">请选择</option>
+        <option value="1">北京</option>
+        <option value="2">上海</option>
+        <option value="3">广州</option>
+      </select></td>
+    </tr>
+<!--    验证码-->
+    <tr>
+      <td><label for="check number">验证码</label></td>
+      <td colspan="2"><input type="text" name="check number"id="check number"  >
+      <img src="img1/verify_code.jpg"></td>
+    </tr>
+<!--    注册-->
+    <tr >
+        <td colspan="2" align="center"><input type="image" src="./img1/regbtn.jpg"></td>
+    </tr>
+  </table>
+
+</form>
+</body>
+</html>

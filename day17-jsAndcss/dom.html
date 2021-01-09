@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置元素</title>
+</head>
+<body>
+<a>点我试试</a>
+<input type="button" id="btn_set" value="设置属性">
+<input type="button" id="btn_remove" value="移除属性">
+<script>
+var btn_set = document.getElementById("btn_set");
+btn_set.onclick=function (){
+    var ele_a = document.getElementsByTagName("a")[0];
+    ele_a.setAttribute("href","https://www.baidu.com");
+}
+var btn_remove = document.getElementById("btn_remove");
+btn_remove.onclick=function (){
+    var ele_a = document.getElementsByTagName("a")[0];
+    ele_a.removeAttribute("href","https://www.baidu.com");
+}
+</script>
+</body>
+</html>
