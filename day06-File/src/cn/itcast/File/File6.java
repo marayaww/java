@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class File6 {
     public static void main(String[] args) throws IOException {
-        File f1=new File("a/b/c");
+        File f1 = new File("a/b/c");
         boolean m1 = f1.mkdirs();
         System.out.println(m1);
         boolean m2 = new File("a\\b\\d").mkdirs();

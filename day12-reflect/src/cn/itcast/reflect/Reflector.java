@@ -8,7 +8,7 @@ import java.util.Properties;
 public class Reflector {
     public static void main(String[] args) throws Exception {
         //创建Properties对象,获取..properties类对象
-        Properties pro =new Properties();
+        Properties pro = new Properties();
         //获取class文件
         //Reflector.class.getClassLoader()获取该类的类加载器,把class文件加载进内存
 

@@ -35,10 +35,12 @@ public class Person {
 
     public Person() {
     }
+
     public void sleep() {
         System.out.println("Person sleep>>>>>>>>>");
     }
+
     public void eat(String food) {
-        System.out.println("eat>>>>>>>>>>"+food+"!!!!!!");
+        System.out.println("eat>>>>>>>>>>" + food + "!!!!!!");
     }
 }

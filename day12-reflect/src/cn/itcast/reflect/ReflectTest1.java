@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ReflectTest1 {
     public static void main(String[] args) throws Exception {
-        Properties pro=new Properties();
+        Properties pro = new Properties();
         ClassLoader classLoader = ReflectTest1.class.getClassLoader();
         InputStream is = classLoader.getResourceAsStream("pro.properties");
         pro.load(is);

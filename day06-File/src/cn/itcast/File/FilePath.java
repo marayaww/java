@@ -1,13 +1,10 @@
 package cn.itcast.File;
 
 import java.io.File;
+
 /**
-
-
-
-
-
-*/
+ *
+ */
 public class FilePath {
     public static void main(String[] args) {
         String p = File.pathSeparator;
@@ -30,10 +27,8 @@ public class FilePath {
          */
 
 
-
         char c = File.separatorChar;
         System.out.println(c);
-
 
 
     }

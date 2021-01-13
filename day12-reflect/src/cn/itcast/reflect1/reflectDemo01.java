@@ -11,7 +11,7 @@ public class reflectDemo01 {
         }
         Field b = pc.getDeclaredField("b");
         b.setAccessible(true);
-        Person p=new Person();
+        Person p = new Person();
         Object o = b.get(p);
         System.out.println(o);
 

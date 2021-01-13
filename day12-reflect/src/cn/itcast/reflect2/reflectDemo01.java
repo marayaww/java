@@ -13,7 +13,7 @@ public class reflectDemo01 {
         Method eat = pc.getDeclaredMethod("eat", String.class);
         eat.invoke(p, "food");
         pc.getDeclaredMethod("sleep", String.class).invoke(p, "123room");
-        pc.getDeclaredMethod("sleep",int.class).invoke(p,12);
+        pc.getDeclaredMethod("sleep", int.class).invoke(p, 12);
         Method[] methods = pc.getMethods();
         for (Method method : methods) {
             System.out.println(method);

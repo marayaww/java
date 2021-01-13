@@ -8,7 +8,7 @@ public class FunctionDemo01 {
         System.out.println(c);
     }
 
-    private static int change(String s,Function<String, Integer> fun1,Function<Integer, Integer> fun2) {
+    private static int change(String s, Function<String, Integer> fun1, Function<Integer, Integer> fun2) {
         return fun1.andThen(fun2).apply(s);
 
     }

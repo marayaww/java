@@ -8,7 +8,7 @@ public class StreamAndArray {
     public static void main(String[] args) {
 // Stream.of(1,2,3,4,5).toArray();
         //String[] st={"a", "b", "c", "d"};
-        String[] st={"a","b","c","d"};
+        String[] st = {"a", "b", "c", "d"};
         List<String> list = Arrays.asList(st);
         //String[] string1 = list.stream().toArray(String[]::new);//转换为流才能用方法的引用
         //String[] string2 = list.toArray(new String[list.size()]);

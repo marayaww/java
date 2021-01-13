@@ -23,7 +23,7 @@ public class FilePath7 {
     }
 
     private static void show5() {
-        File file=new File("a\\111\\344");
+        File file = new File("a\\111\\344");
         boolean delete = file.delete();
         System.out.println(delete);
     }

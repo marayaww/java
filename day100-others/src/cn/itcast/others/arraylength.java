@@ -4,7 +4,7 @@ public class arraylength {
     public static void main(String[] args) {
         int[] arrayA = new int[]{2, 3, 12,};
         System.out.println(arrayA[0]);
-        int[] arrayB = new int[]{2, 4, 7,  -12, 160, 8};
+        int[] arrayB = new int[]{2, 4, 7, -12, 160, 8};
         int len = arrayB.length;
         System.out.println(len);
         System.out.println("=====================");

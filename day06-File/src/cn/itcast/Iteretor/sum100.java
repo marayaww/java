@@ -7,11 +7,11 @@ public class sum100 {
     }
 
     private static int getSum(int n) {
-       if (n==1){
-           return 1;
-       }else {
-           return n*getSum(n-1);
-       }
+        if (n == 1) {
+            return 1;
+        } else {
+            return n * getSum(n - 1);
+        }
 
     }
 }

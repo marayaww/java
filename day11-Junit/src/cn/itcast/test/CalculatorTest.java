@@ -8,28 +8,31 @@ import org.junit.Test;
 
 public class CalculatorTest {
     @Before
-    public void init(){
+    public void init() {
         System.out.println("init............");
     }
+
     @After
-    public void close(){
+    public void close() {
         System.out.println("close............");
     }
+
     @Test
-    public void testAdd(){
+    public void testAdd() {
         System.out.println("testAdd...........");
         //创建测试类对象
-        Calculator c=new Calculator();
+        Calculator c = new Calculator();
         int result = c.add(1, 3);
-        Assert.assertEquals(4,result);
+        Assert.assertEquals(4, result);
 
     }
+
     @Test
-    public void testSub(){
+    public void testSub() {
         System.out.println("testSub............");
-        Calculator c=new Calculator();
+        Calculator c = new Calculator();
         int result = c.sub(4, 3);
-       Assert.assertEquals(1,result);
+        Assert.assertEquals(1, result);
 
     }
 

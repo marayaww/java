@@ -8,6 +8,6 @@ public class MethodPrint2 {
 
     private static void printString(Printable p) {
 
-      p.print("helloWorld");
+        p.print("helloWorld");
     }
 }

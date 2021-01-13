@@ -5,10 +5,10 @@ import java.awt.print.PrinterGraphics;
 public class MethodPrint {
 
     public static void main(String[] args) {
-        printString("Hello",MethodObjectDemo01::printUpperCase);
+        printString("Hello", MethodObjectDemo01::printUpperCase);
     }
 
-    private static void printString(String s,Printable p) {
-      p.print(s);
+    private static void printString(String s, Printable p) {
+        p.print(s);
     }
 }

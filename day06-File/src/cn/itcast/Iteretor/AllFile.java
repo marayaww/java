@@ -4,17 +4,18 @@ import java.io.File;
 
 public class AllFile {
     public static void main(String[] args) {
-        File file=new File("a");
+        File file = new File("a");
         getAllFile(file);
 
     }
-    public static void  getAllFile(File dir) {
+
+    public static void getAllFile(File dir) {
         System.out.println(dir);
         File[] files = dir.listFiles();
         for (File file : files) {
-            if (file.isDirectory()){
+            if (file.isDirectory()) {
                 getAllFile(file);
-            }else {
+            } else {
                 System.out.println(file);
             }
         }

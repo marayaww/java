@@ -7,10 +7,10 @@ import java.lang.reflect.Method;
 
 /**
  * pc.getField()获取public修饰的成员变量;
- *        pc.getDeclaredMethod()获取所有的成员变量,忽略修饰符.
- *        仅仅只是能够获取,不能查看,修改数值.
- *        想要get和set就需要是数据可接近,用 成员变量名.setAccessible(true);暴力反射,忽略访问权限
- *         a.setAccessible(true);
+ * pc.getDeclaredMethod()获取所有的成员变量,忽略修饰符.
+ * 仅仅只是能够获取,不能查看,修改数值.
+ * 想要get和set就需要是数据可接近,用 成员变量名.setAccessible(true);暴力反射,忽略访问权限
+ * a.setAccessible(true);
  */
 public class reflectDemo01 {
     public static void main(String[] args) throws Exception {
@@ -26,10 +26,10 @@ public class reflectDemo01 {
 //            System.out.println(method);
 //        }
         Field a = pc.getField("a");
-        Person p=new Person();
+        Person p = new Person();
         Object o = a.get(p);
         System.out.println(o);
-        a.set(p,"张三");
+        a.set(p, "张三");
 
         System.out.println(p);
         System.out.println("===================");

@@ -13,13 +13,14 @@ public class FilePath3 {
 
     private static void show2() {
         File parent = new File("C:\\");
-        File file =new File(parent,"b.txt");
+        File file = new File(parent, "b.txt");
         System.out.println(file);
 
     }
+
     private static void show3() {
         File parent = new File("C:\\");
-        File file =new File(parent.getAbsoluteFile(),"b.txt");
+        File file = new File(parent.getAbsoluteFile(), "b.txt");
         System.out.println(file);
 
     }

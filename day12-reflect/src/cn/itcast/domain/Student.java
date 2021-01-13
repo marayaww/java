@@ -35,10 +35,12 @@ public class Student {
 
     public Student() {
     }
+
     public void sleep() {
         System.out.println("Student sleep>>>>>>>>>");
     }
+
     public void eat(String food) {
-        System.out.println("eat>>>>>>>>>>"+food+"!!!!!!");
+        System.out.println("eat>>>>>>>>>>" + food + "!!!!!!");
     }
 }

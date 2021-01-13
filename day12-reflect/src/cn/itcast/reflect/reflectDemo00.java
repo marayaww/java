@@ -5,24 +5,25 @@ import cn.itcast.domain.Student;
 import java.lang.reflect.Method;
 
 /**
-  获取class对象的方法
-  1,Class.forName(全类名)--->包名+类名
-         Class.forName("cn.itcast.domain.Student")
-         这种方式主要用于配置文件,参数是字符创,将类名定义在配置文件中读取文件加载类.
-  2.类名.class
-            多用于参数传递
-  Student.class
-  3.对象名.class
- 多用于对象的获取字节码方式
+ * 获取class对象的方法
+ * 1,Class.forName(全类名)--->包名+类名
+ * Class.forName("cn.itcast.domain.Student")
+ * 这种方式主要用于配置文件,参数是字符创,将类名定义在配置文件中读取文件加载类.
+ * 2.类名.class
+ * 多用于参数传递
+ * Student.class
+ * 3.对象名.class
+ * 多用于对象的获取字节码方式
  */
+
 /**
  *
-                    *
-                    *
-                     *
-                    *
-                    *
-                    *
+ *
+ *
+ *
+ *
+ *
+ *
  * */
 public class reflectDemo00 {
     public static void main(String[] args) throws Exception {

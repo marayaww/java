@@ -31,7 +31,7 @@ public class FilePath6 {
     }
 
     private static void show1() throws IOException {
-        File file=new File("a\\a.txt");
+        File file = new File("a\\a.txt");
         boolean newFile = file.createNewFile();
         System.out.println(newFile);
     }

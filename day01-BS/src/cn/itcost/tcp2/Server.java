@@ -8,10 +8,10 @@ import java.net.Socket;
 
 public class Server {
     public static void main(String[] args) throws Exception {
-        ServerSocket ss=new ServerSocket(8800);
+        ServerSocket ss = new ServerSocket(8800);
         Socket server = ss.accept();
         InputStream is = server.getInputStream();
-        byte[] bytes=new byte[1024];
+        byte[] bytes = new byte[1024];
         int len = is.read(bytes);
         OutputStream os = server.getOutputStream();
         os.write("你好,谢谢你".getBytes());

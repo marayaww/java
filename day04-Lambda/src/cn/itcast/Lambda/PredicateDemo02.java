@@ -8,7 +8,7 @@ public class PredicateDemo02 {
         System.out.println(con);
     }
 
-    private static boolean show(String s,Predicate<String> pre) {
+    private static boolean show(String s, Predicate<String> pre) {
         return pre.test(s);
 
 
